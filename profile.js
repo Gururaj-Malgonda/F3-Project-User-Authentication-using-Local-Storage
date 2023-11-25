@@ -16,7 +16,7 @@ if (user) {
   profileDetails.innerHTML = userDetailsHTML;
 } else {
   // If the user is not logged in, redirect to the signup page
-  window.location.href = "signup.html";
+  window.location.href = "index.html";
 }
 
 // add event listener to logoutButton
@@ -25,5 +25,5 @@ logoutButton.addEventListener("click", function () {
   localStorage.clear();
 
   // Redirect to the signup page
-  window.location.href = "signup.html";
+  window.location.href = "index.html";
 });
